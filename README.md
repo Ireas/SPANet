@@ -1,3 +1,5 @@
+personal version
+
 # Symmetry Preserving Attention Networks
 
 A library for training and evaluation SPANets on jet reconstruction tasks. 
