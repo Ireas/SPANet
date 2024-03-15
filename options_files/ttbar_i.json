@@ -29,8 +29,8 @@
 
     "skip_connections": true,
     "initial_embedding_skip_connections": true,
-    "event_info_file": "./event_files/testing.yaml",
-    "training_file": "../output/output.h5",
+    "event_info_file": "/nfs/dust/atlas/user/ireas/SPANet/event_files/ttbar_i.yaml",
+    "training_file": "/nfs/dust/atlas/user/ireas/SPANet/data/output_i.h5",
 
     "normalize_features": true,
     "limit_to_num_jets": 0,
@@ -62,8 +62,9 @@
     "gradient_clip": 0.0,
     "dropout": 0.0,
 
-    "epochs": 5,
+    "epochs": 10,
     "num_gpu": 1,
 
-    "verbose_output": true
+    "verbose_output": false,
+    "log_every_n_step": 5
 }
